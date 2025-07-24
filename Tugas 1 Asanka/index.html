@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://cdn.materialdesignicons.com/5.9.55/css/materialdesignicons.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/@mdi/font/css/materialdesignicons.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/@mdi/font/css/materialdesignicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Hotto Landing Page</title>
+</head>
+<body class="overflow-x-hidden">
+  <div class="relative h-screen w-full">
+
+    <div class="absolute inset-0 bg-[url('./image/2100-Hotto.jpg')] bg-cover bg-[center_right_20%] z-0"></div>
+
+    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent z-10"></div>
+
+    <div class="relative z-20 px-4 md:px-10 w-full h-full flex flex-col">
+
+      <header class="flex items-center justify-between h-[60px]">
+        <div class="flex items-center w-full md:w-auto justify-between md:justify-start">
+          <i class="fas fa-bars text-white text-2xl md:hidden"></i>
+          <h2 class="text-white text-[28px] font-bold text-center mx-auto md:mx-0 md:text-left md:text-[32px]" style="font-family: Georgia, serif;">Hotto</h2>
+          <ul class="hidden md:flex gap-8 ml-10 text-white font-semibold text-sm" style="font-family: system-ui;">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Distribusi Resmi</a></li>
+            <li><a href="#">Inspiration</a></li>
+          </ul>
+        </div>
+        <div class="hidden md:flex items-center">
+          <button class="bg-white bg-opacity-25 text-white px-6 py-2 rounded-full font-semibold text-sm flex items-center">
+            <span>Beli Hotto</span>
+            <i class="fas fa-shopping-cart ml-2"></i>
+          </button>
+        </div>
+      </header>
+
+      <div class="flex-1 flex flex-col justify-center items-center md:items-start text-center md:text-left w-[90%] mx-auto">
+        <h2 class="text-white font-bold text-[18px] md:text-[25px]" style="font-family: system-ui;">A BETTER YOU, A BETTER FUTURE</h2>
+        <h1 class="text-white font-bold text-[35px] md:text-[100px]" style="font-family: system-ui;">Hotto</h1>
+        <div class="flex justify-center md:justify-start items-center gap-5">
+          <h2 class="text-white font-bold text-[35px] md:text-[100px]" style="font-family: system-ui;">for</h2>
+          <span id="rotating-word" class="transition-transform duration-700 text-white font-bold text-[35px] md:text-[100px]" style="font-family: system-ui;">Anytime</span>
+        </div>
+        <div class="flex justify-center md:justify-start items-center gap-5 mt-5">
+          <button class="hover:bg-[#3D3772] bg-[#6354B3] text-white px-6 py-2 rounded-full font-semibold text-sm">
+            Shop now <i class="fas fa-shopping-cart"></i>
+          </button>
+          <p class="text-white" style="font-family: system-ui;">Watch Full Video</p>
+        </div>
+      </div>
+    </div>
+    </div>
+      <div class="flex items-center justify-center md:justify-start h-[5vh] w-full bg-[#5B539C] px-6 text-white md:h-[10vh] md:flex-col md:justify-center text-center lg:h-[15vh] lg:flex-row">
+  <div class="flex items-center gap-4 w-[50%] md:justify-center lg:justify-start">
+    <div class="flex gap-1 hidden md:hidden text-[75%] md:hidden lg:block">
+      <i class="fas fa-star text-gray-400 text-xl"></i>
+      <i class="fas fa-star text-gray-400 text-xl"></i>
+      <i class="fas fa-star text-gray-400 text-xl"></i>
+      <i class="fas fa-star text-gray-400 text-xl"></i>
+      <i class="fas fa-star text-gray-400 text-xl"></i>
+    </div>
+    <div class="flex items-center gap-2 w-[100%] h-50% md:justify-center w-[50%] h-50% lg:justify-start">
+      <p class=" text-[10px]">Loved and Rated by</p>
+      <h2 class="font-bold text-[75%]">1,000,000+</h2>
+      <p class="text-[10px]">People</p>
+    </div>
+    </div>
+    <span class="flex w-30% hidden md:block lg:block"><p>Every 8 out of 10 consumers have felt the benefits of Hotto <i class="fas fa-arrow-right text-xs ml-2"></i>
+</p></span>
+</div>
+
+
+
+
+
+<div class="w-full min-h-[50vh] md:h-[100vh] bg-cream relative flex flex-col md:flex-row">
+  <!-- Background -->
+  <div class="absolute inset-0 bg-[url('./image/Second-section-1.jpg')] bg-no-repeat bg-cover bg-[center_right_40%] z-0"></div>
+
+  <!-- Kiri (teks utama) -->
+  <div class="relative z-10 w-full md:w-1/2 flex items-start justify-center p-6">
+    <div class="flex flex-col space-y-4 text-start md:text-left">
+      <p class="text-[#5B539C] text-[10px] md:text-[35px] lg:text-[50px] leading-none font-sans">
+        The backbone to all health
+        <b class="font-semibold text-[15px] md:text-[65px] lg:text-[65px] block">lies in your gut</b>
+      </p>
+      <p class="text-[8px] sm:text-[15px] lg:text-[23px]">
+        Tak pernah ada kata terlambat untuk hidup sehat. Mulailah dari pola makan yang lebih baik — <b>Hotto membantu atasi Asam Lambung / GERD, kolesterol tinggi, dan obesitas.</b>
+      </p>
+      <p class="gap-x-1 cursor-pointer rounded-full flex items-center justify-center font-semibold text-white bg-[#5B539C]
+                 w-[85px] h-[35px] text-[7px]
+                 md:w-[200px] md:h-[50px] md:text-[15px]
+                 lg:w-[300px] lg:h-[75px] lg:text-[25px]">
+        Lihat Semua Produk
+         <i class="fas fa-chevron-right text-xs"></i>
+      </p>
+    </div>
+  </div>
+
+  <!-- Kanan (daily needs) -->
+  <div class="relative z-10 w-full mt-[20vh] md:w-[50%] flex items-center justify-center p-6">
+    <div class="flex flex-col items-center text-[#5B539C]">
+      <p class="text-[10px] md:text-[25px] lg:text-[50px] font-serif text-center">Complete your</p>
+      <div class="flex items-center justify-center space-x-2">
+        <div class="italic border border-[#5B539C] rounded-full font-semibold text-[#5B539C]/50 bg-white
+                    flex items-center justify-center text-[5px] w-[35px] h-[15px]
+                    md:text-[25px] md:w-[150px] md:h-[50px]
+                    lg:text-35 lg:w-[170px] lg:h-[75px]
+                    xl:text-[40px] lg:w-[300px] lg:h-[100px]">
+          daily needs
+        </div>
+        <span class="text-sm md:text-base lg:text-lg">of</span>
+      </div>
+      <div class="flex flex-col items-start  text-gray-500 text-[10px] md:text-xl">
+        <p>✵ Fiber</p>
+        <p>✵ Beta-glucan</p>
+        <p>✵ Prebiotics</p>
+        <p>✵ 11 vitamins</p>
+        <p>✵ 8 minerals</p>
+        <p>✵ Gut-nourishing ingredients</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+ 
+<div class="bg-white flex flex-wrap gap-0.1 gap-y-4 pl-10 mb-5 w-full items-center justify-center  h-auto">
+
+ <div class="flex items-center gap-4 w-full md:w-1/3">
+    <div class="w-[60px] h-[60px] bg-[#B2A8CD] rounded-full flex items-center justify-center">
+      <img src="./image/Group 80.png" alt="Muscle Icon" class="w-[30px] h-[30px] object-contain" />
+    </div>
+    <div class="text-[#5B539C]">
+      <p class="text-gray-500 text-35px md:text-sm">Bantu penuhi kebutuhan nutrisi harian</p>
+    </div>
+  </div>
+
+
+ <div class="flex items-center gap-4 w-full md:w-1/3">
+    <div class="flex w-[60px] h-[60px] bg-[#B2A8CD] rounded-full flex items-center justify-center">
+      <img src="./image/Group 54.png" alt="Muscle Icon" class="w-[30px] h-[30px] object-contain" />
+    </div>
+    <div class="text-[#5B539C]">
+      <p class="text-gray-500 text-35px md:text-sm">Bantu meringankan gejala Asam Lambung / GERD</p>
+    </div>
+  </div>
+
+ <div class="flex items-center gap-4 w-full md:w-1/3">
+    <div class="w-[60px] h-[60px] bg-[#B2A8CD] rounded-full flex items-center justify-center">
+      <img src="./image/Group 34.png" alt="Muscle Icon" class="w-[30px] h-[30px] object-contain" />
+    </div>
+    <div class="text-[#5B539C]">
+      <p class="text-gray-500 text-35px md:text-sm">Rendah kalori, cocok untuk diet​</p>
+    </div>
+  </div>
+
+ <div class="flex items-center gap-4 w-full md:w-1/3">
+    <div class="w-[60px] h-[60px] bg-[#B2A8CD] rounded-full flex items-center justify-center">
+      <img src="./image/plane.png" alt="Muscle Icon" class="w-[30px] h-[30px] object-contain" />
+    </div>
+    <div class="text-[#5B539C]">
+      <p class="text-gray-500 text-35px md:text-sm">Praktis, bisa dinikmati kapan saja & di mana saja</p>
+    </div>
+  </div>
+
+ <div class="flex items-center gap-4 w-full md:w-1/3">
+    <div class="w-[60px] h-[60px] bg-[#B2A8CD] rounded-full flex items-center justify-center">
+      <img src="./image/Rectangle 36.png" alt="Muscle Icon" class="w-[30px] h-[30px] object-contain" />
+    </div>
+    <div class="text-[#5B539C]">
+      <p class="text-gray-500 text-35px md:text-sm">Kaya serat dan protein untuk kesehatan optimal</p>
+    </div>
+  </div>
+
+ <div class="flex items-center gap-4 w-full md:w-1/3">
+    <div class="w-[60px] h-[60px] bg-[#B2A8CD] rounded-full flex items-center justify-center">
+      <img src="./image/Group 42.png" alt="Muscle Icon" class="w-[30px] h-[30px] object-contain" />
+    </div>
+    <div class="text-[#5B539C]">
+      <p class="text-gray-500 text-35px md:text-sm">Tersertifikasi & teruji lab independen untuk keamanan maksimal</p>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="bg-gradient-to-b from-[#D6C8D5] via-white to-[#9AAA96] w-full px-10 py-8">
+
+  <!-- === HOTTO PURTO === -->
+  <div class="w-full h-auto">
+    <!-- Title -->
+    <div class="flex items-center mb-6">
+      <p class="text-[30px] md:text-[45px] lg:text-[65px] text-[#5B539C]">&#10022;</p>
+      <p class="text-[15px] text-[#5B539C] font-serif ml-2 md:text-[35px] lg:text-[45px]">Product of Hotto</p>
+      <hr class="border-t-2 border-[#5B539C] w-[50%] ml-4">
+    </div>
+
+    <!-- Product Content -->
+    <div class="flex flex-col-reverse md:flex-row gap-10">
+      <div class="md:w-[40%]">
+        <h1 class="text-[#5B539C] font-bold text-[32px] font-serif">Hotto Purto</h1>
+        <p class="text-[15px] text-gray-800">
+          Hotto Purto adalah minuman <b>multigrain dengan ubi ungu</b> yang tinggi serat, memenuhi <b>20% asupan serat</b> dalam sehari.
+          Dirancang untuk meningkatkan kesehatan pencernaan dan tubuh secara menyeluruh. Kandungan 15 macam multigrain dan oat dapat
+          <b>mengoptimalkan nutrisi serta</b> serat yang dibutuhkan oleh tubuh di sela-sela kesibukanmu setiap hari.
+        </p>
+        <button class="mt-4 bg-[#6354B3] hover:bg-[#3D3772] text-white px-6 py-2 rounded-full font-semibold text-sm">
+          Lihat Detail Produk
+        </button>
+      </div>
+      <div class="md:w-[60%] flex justify-center items-center">
+        <img src="./image/Rectangle-66.png.webp" alt="Hotto Purto" class="w-full h-auto object-contain rounded-lg" />
+      </div>
+    </div>
+
+    <!-- Key Ingredients -->
+    <div class="mt-10">
+      <div class="flex items-end mb-4">
+        <p class="text-[#6354B3] text-[25px] font-semibold">KEY INGREDIENTS</p>
+        <hr class="border-t-2 border-[#5B539C] w-[80%] ml-4">
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+        <!-- Isi 4 bahan utama -->
+        <div class="flex flex-col p-4 items-center text-center">
+          <div class="w-[150px] h-[175px] rounded-full overflow-hidden mb-4">
+            <img src="./image/Ellipse-11.png.webp" alt="Ubi Ungu" class="w-full h-full object-cover" />
+          </div>
+          <h3 class="text-[20px] text-[#5B539C] font-serif">Ubi Ungu</h3>
+          <p class="text-[12px] text-gray-700">Kaya antioksidan, vitamin, mineral, dan serat. Menjaga keseimbangan nutrisi harian.</p>
+        </div>
+
+        <div class="flex flex-col p-4 items-center text-center">
+          <div class="w-[150px] h-[175px] rounded-full overflow-hidden mb-4">
+            <img src="./image/Ellipse-12-1.png.webp" alt="Beta-glucan" class="w-full h-full object-cover" />
+          </div>
+          <h3 class="text-[20px] text-[#5B539C] font-serif">Oat Beta-glucan</h3>
+          <p class="text-[12px] text-gray-700">Serat larut untuk jantung sehat dan pencernaan optimal.</p>
+        </div>
+
+        <div class="flex flex-col p-4 items-center text-center">
+          <div class="w-[150px] h-[175px] rounded-full overflow-hidden mb-4">
+            <img src="./image/Ellipse-11-1.png.webp" alt="Multigrain" class="w-full h-full object-cover" />
+          </div>
+          <h3 class="text-[20px] text-[#5B539C] font-serif">15 Multigrain</h3>
+          <p class="text-[12px] text-gray-700">Kombinasi biji-bijian utuh dengan serat, vitamin, dan mineral.</p>
+        </div>
+
+        <div class="flex flex-col p-4 items-center text-center">
+          <div class="w-[150px] h-[175px] rounded-full overflow-hidden mb-4">
+            <img src="./image/Ellipse-12.png.webp" alt="Multivitamin" class="w-full h-full object-cover" />
+          </div>
+          <h3 class="text-[20px] text-[#5B539C] font-serif">Multivitamins</h3>
+          <p class="text-[12px] text-gray-700">Vitamin & mineral penting untuk fungsi tubuh optimal.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- === HOTTO MAME === -->
+  <div class="w-full h-auto mt-24">
+    <!-- Title -->
+
+     <div class="flex items-center mb-6">
+      <p class="text-[30px] md:text-[45px] lg:text-[65px] text-[#5F7C28]">&#10022;</p>
+      <p class="text-[15px] text-[##5F7C28] font-serif ml-2 md:text-[35px] lg:text-[45px]">Product of Hotto</p>
+      <hr class="border-t-2 border-[#5F7C28] w-[50%] ml-4">
+    </div>
+
+
+    <!-- Product Content -->
+    <div class="flex flex-col-reverse md:flex-row gap-10">
+      <div class="md:w-[40%]">
+        <h1 class="text-[#2A4100] font-bold text-[15px] font-serif md:text-[32px] lg:text-[32px]">Hotto Mame</h1>
+        <p class="text-[15px] mt-2 text-gray-800">
+          Hotto Porto adalah minuman <b>multigrain berbasis kacang hijau</b> yang tinggi serat, vitamin B kompleks, dan protein nabati.
+          Dirancang untuk mendukung regenerasi sel, meningkatkan energi, dan menjaga fungsi tubuh.
+        </p>
+        <button class="mt-4 bg-[#33470D] hover:bg-[#2A4100] text-white px-6 py-2 rounded-full font-semibold text-sm">
+          Lihat Detail Produk
+        </button>
+      </div>
+      <div class="md:w-[60%] flex justify-center items-center">
+        <img src="./image/Rectangle-66-1.png.webp" alt="Hotto Porto" class="w-full h-auto object-contain rounded-lg" />
+      </div>
+    </div>
+
+    <!-- Key Ingredients -->
+    <div class="mt-10">
+      <div class="flex items-end mb-4">
+        <p class="text-[#2A4100] text-[25px] font-semibold">KEY INGREDIENTS</p>
+        <hr class="border-t-2 border-[#2A4100] w-[80%] ml-4">
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+        <!-- Isi 4 bahan utama -->
+        <div class="flex flex-col p-4 items-center text-center">
+          <div class="w-[150px] h-[175px] rounded-full overflow-hidden mb-4">
+            <img src="./image/Ellipse-12-5.png.webp" alt="Kacang Hijau" class="w-full h-full object-cover" />
+          </div>
+          <h3 class="text-[20px] text-[#5B539C] font-serif">Kacang Hijau</h3>
+          <p class="text-[12px] text-gray-700">Protein nabati tinggi serat, bantu regenerasi sel dan sistem pencernaan.</p>
+        </div>
+
+        <div class="flex flex-col p-4 items-center text-center">
+          <div class="w-[150px] h-[175px] rounded-full overflow-hidden mb-4">
+            <img src="./image/whey-protein.png.webp" alt="Whey" class="w-full h-full object-cover" />
+          </div>
+          <h3 class="text-[20px] text-[#5B539C] font-serif">Isolat Whey Protein</h3>
+          <p class="text-[12px] text-gray-700">Mendukung pembentukan otot dan kekuatan tubuh.</p>
+        </div>
+
+        <div class="flex flex-col p-4 items-center text-center">
+          <div class="w-[150px] h-[175px] rounded-full overflow-hidden mb-4">
+            <img src="./image/Ellipse-11-2.png.webp" alt="Multigrain" class="w-full h-full object-cover" />
+          </div>
+          <h3 class="text-[20px] text-[#5B539C] font-serif">15 Multigrain</h3>
+          <p class="text-[12px] text-gray-700">Gabungan 15 biji-bijian penuh nutrisi dan energi untuk aktivitas harian.</p>
+        </div>
+
+        <div class="flex flex-col p-4 items-center text-center">
+          <div class="w-[150px] h-[175px] rounded-full overflow-hidden mb-4">
+            <img src="./image/Ellipse-12-1.png.webp" alt="Beta-glucan" class="w-full h-full object-cover" />
+          </div>
+          <h3 class="text-[20px] text-[#5B539C] font-serif">Oats Beta-glucan</h3>
+          <p class="text-[12px] text-gray-700">Vitamin B kompleks dan mineral untuk metabolisme optimal.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="w-full min-h-[100vh] md:min-h-[80vh] lg:min-h-[80vh]">
+<div class=" bg-white p-10 flex flex-col md:flex-row relative">
+  <div class="w-[100%] md:w-[45%] h-full order-2 lg:order-1 z-0 md:z-auto">
+  <h1 class="text-[#2A4100] font-bold text-[32px]">Hotto</h1>
+
+  <img src="./image/anyone-anywhere-anytime.svg" alt="" class="w-full lg:w-[45vh] mb-4">
+
+<p class="text-base md:text-lg lg:text-xl xl:text-[28px] 2xl:text-[32px] text-gray-700 leading-relaxed mb-6">
+  Kami percaya bahwa kesehatan sejati dimulai dari memberi tubuh nutrisi terbaik dari dalam, sambil membangun 
+  kebiasaan kecil yang memberikan dampak besar setiap hari. Misi kami adalah membuat gaya hidup sehat menjadi lebih mudah,
+  berkelanjutan, menyenangkan, dan aman bagi semua kalangan, tanpa batasan usia.
+</p>
+
+<button class="flex items-center justify-center hover:bg-[#3D3772] bg-[#6354B3] text-white w-[45%] h-[13vh] rounded-full  ">
+  Shop now <i class="fas fa-shopping-cart ml-2"></i>
+</button>
+
+</div>
+
+
+  <div class="flex justify-center gap-6 w-full md:w-[65%] h-full order-1 md:order-2 z-10">
+    <div class="rounded-[45px] overflow-hidden w-[25vh] h-[20vh] md:[35vh] h-[30vh] lg:w-[35vh] h-[50vh]">
+    <img src="./image/Rectangle-36.png.webp" alt="" class="w-full h-full object-cover">
+  </div>
+  <div class="rounded-[45px] overflow-hidden w-[25vh] h-[20vh] md:w-[35vh] h-[30vh] lg:w-[35vh] h-[50vh]">
+    <img src="./image/Rectangle-38.png.webp" alt="" class="w-full h-full object-cover">
+  </div>
+    </div>
+  </div>
+</div>
+
+    <div class=" overflow-hidden grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 items-start p-5 w-full">
+  <div class="flex flex-col w-full rounded-xl p-4">
+    <div class="w-[35px] h-[45px] mb-2">
+      <img src="image/Group 18.png" alt="" class="w-full h-full object-contain">
+    </div>
+    <h3 class="font-bold mb-1">Nutrisi Seimbang</h3>
+    <p class="text-sm text-gray-700">Solusi nutrisi harian, cocok bagi anak-anak hingga lansia. Dengan kandungan nutrisi lengkap, Hotto menjadi andalan dan mendukung kesehatan setiap harinya.</p>
+  </div>
+
+  <div class="flex flex-col w-full rounded-xl p-4">
+    <div class="w-[35px] h-[45px] mb-2">
+      <img src="image/Vector.png" alt="" class="w-full h-full object-contain">
+    </div>
+    <h3 class="font-bold mb-1">Praktis & Siap Konsumsi</h3>
+    <p class="text-sm text-gray-700">Tanpa ribet, Hotto mudah dikonsumsi kapan saja. Cocok untuk gaya hidup aktif dan dinamis.</p>
+  </div>
+
+  <div class="flex flex-col w-full rounded-xl p-4">
+    <div class="w-[35px] h-[45px] mb-2">
+      <img src="image/Group 13.png" alt="" class="w-full h-full object-contain">
+    </div>
+    <h3 class="font-bold mb-1">Teruji Aman</h3>
+    <p class="text-sm text-gray-700">Diproses dengan standar tinggi dan telah melalui uji laboratorium, Hotto aman dikonsumsi seluruh keluarga.</p>
+  </div>
+
+  <div class="flex flex-col w-full rounded-xl p-4">
+    <div class="w-[35px] h-[45px] mb-2">
+      <img src="image/Group 17.png" alt="" class="w-full h-full object-contain">
+    </div>
+    <h3 class="font-bold mb-1">Harga Terjangkau</h3>
+    <p class="text-sm text-gray-700">Kualitas premium dengan harga bersahabat. Hotto hadir untuk semua kalangan.</p>
+  </div>
+
+</div>
+
+ <h1 class=" p-[25px] font-bold text-[50px] text-[#5B539C]" style="font-family: Georgia, 'Times New Roman', Times, serif;">When is the best time for Hotto?</h1>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 items-start p-5 w-full">
+  <div class="flex flex-col w-full rounded-xl p-4">
+    <div class="w-full h-[50vh] mb-2">
+      <img src="image/Rectangle-11-2.png" alt="" class="w-full h-full object-contain">
+    </div>
+    <h3 class="font-bold mb-1">Sarapan</h3>
+    <p class="text-sm text-gray-700">Hotto dapat dikonsumsi sebagai sarapan untuk memulai hari dengan asupan nutrisi lengkap.</p>
+  </div>
+  <div class="flex flex-col w-full rounded-xl p-4">
+    <div class="w-full h-[50vh] mb-2">
+      <img src="image/pre-workout.jpg" alt="" class="w-full h-full object-contain">
+    </div>
+    <h3 class="font-bold mb-1">Sarapan</h3>
+    <p class="text-sm text-gray-700">Hotto dapat dikonsumsi sebagai sarapan untuk memulai hari dengan asupan nutrisi lengkap.</p>
+  </div>
+  <div class="flex flex-col w-full rounded-xl p-4">
+    <div class="w-full h-[50vh] mb-2">
+      <img src="image/snack.jpg" alt="" class="w-full h-full object-contain">
+    </div>
+    <h3 class="font-bold mb-1">Sarapan</h3>
+    <p class="text-sm text-gray-700">Hotto dapat dikonsumsi sebagai sarapan untuk memulai hari dengan asupan nutrisi lengkap.</p>
+  </div>
+  <div class="flex flex-col w-full rounded-xl p-4">
+    <div class=" h-[50vh] mb-2">
+      <img src="image/Rectangle-12-2.webp" alt="" class="w-full h-full object-contain">
+    </div>
+    <h3 class="font-bold mb-1">Sarapan</h3>
+    <p class="text-sm text-gray-700">Hotto dapat dikonsumsi sebagai sarapan untuk memulai hari dengan asupan nutrisi lengkap.</p>
+  </div>
+
+</div>
+
+ <div class="w-full min-h-[50vh] p-4 flex flex-col md:flex-row gap-6">
+  <!-- Text Section -->
+  <div class="flex flex-col justify-between w-full md:w-1/2 h-full p-6">
+    <h1 class="text-[#5B539C] text-[20px] md:text-[45px] font-semibold leading-snug" style="font-family: Georgia, 'Times New Roman', Times, serif;">
+      Loved and <br class="block md:hidden" />
+      recommended by <strong>1.000.000+ people</strong> and more!
+    </h1>
+    <button class="bg-[#6354B3] hover:bg-[#3D3772] text-white px-6 py-2 rounded-full font-semibold text-sm w-max mt-4">
+      Lihat Detail Produk
+    </button>
+  </div>
+
+  <!-- Video Card -->
+  <div class="relative w-full md:w-1/2 h-[300px] md:h-[90%] rounded-2xl overflow-hidden shadow-lg">
+    <img
+      src="https://img.youtube.com/vi/vofuXUi9sXc/hqdefault.jpg"
+      alt="Thumbnail"
+      class="w-full h-full object-cover"
+    />
+
+    <div class="absolute inset-0 bg-gradient-to-t from-[#5B539C]/80 to-transparent"></div>
+
+    <a href="https://youtu.be/vofuXUi9sXc?si=l2ss1Ljx4ymJPj_h"
+      target="_blank"
+      class="absolute inset-0 flex items-center justify-center">
+      <div class="w-[70px] h-[70px] bg-white/80 rounded-full flex items-center justify-center">
+        <svg class="w-10 h-10 text-[#5B539C]" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M8 5v14l11-7z" />
+        </svg>
+      </div>
+    </a>
+
+    <div class="absolute bottom-4 left-4 right-4 text-white">
+      <p class="text-sm font-medium leading-snug">
+        “GERD akut gak kambuh lagi setelah konsumsi Hotto.”
+      </p>
+      <p class="text-xs mt-1 opacity-80">Merry</p>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="relative h-screen w-full">
+  <div class="absolute inset-0 bg-[url('./image/Rectangle-40.webp')] bg-cover bg-[center_20%] z-0 md:flex bg[center_right_20%]"></div>
+  <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent z-10"></div>
+
+  <div class="relative z-20 flex flex-col items-center justify-center h-full w-full px-6 py-10 gap-6">
+    <button class="bg-[#6354B3] hover:bg-[#3D3772] text-white px-8 py-3 rounded-full font-semibold text-sm flex items-center gap-2 shadow-lg">
+      Beli di Distributor Resmi
+      <i class="fas fa-chevron-right text-sm"></i>
+    </button>
+
+    <button class="bg-[#6354B3] hover:bg-[#3D3772] text-white px-6 py-2 rounded-full font-semibold text-sm flex items-center gap-2 shadow-md">
+      <img src="./image/images.png" alt="Shopee" class="w-5 h-5">
+      Via Shopee
+      <i class="fas fa-chevron-right text-xs"></i>
+    </button>
+
+    <div class="grid grid-cols-2 sm:grid-cols-2  w-full max-w-[16rem] ">
+      <div class="flex items-center justify-center h-[10vh]">
+        <img src="image/Growell-removebg-preview.png" alt="Growell" class="h-full object-contain">
+      </div>
+      <div class="flex items-center justify-center h-[10vh]">
+        <img src="image/images__4_-removebg-preview.png" alt="The Foodhall" class="h-full object-contain">
+      </div>
+      <div class="flex items-center justify-center h-[5vh]">
+        <img src="image/Logo-astro-indonesia-removebg-preview.png" alt="Astro" class="h-full object-contain">
+      </div>
+      <div class="flex items-center justify-center h-[5vh]">
+        <img src="image/Logo_Halodoc-removebg-preview.png" alt="Halodoc" class="h-full object-contain">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="px-4 py-10 bg-white">
+  <h2 class="text-center text-[#5B539C] text-2xl md:text-4xl font-serif mb-10">
+    Find inspirations from our blog
+  </h2>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div class="rounded-lg overflow-hidden bg-white">
+      <img src="https://hotto.co.id/wp-content/uploads/Cerita-Dinarta-Pernah-Muntah-20-Kali-Sehari-Karena-GERD-scaled.png" alt="Cerita Dinarta" class="w-full h-auto object-cover" />
+      <div class="p-4">
+        <h3 class="text-lg font-semibold leading-snug mb-2">Cerita Dinarta: Pernah Muntah 20 Kali Sehari Karena GERD</h3>
+        <p class="text-sm text-gray-600">Testimoni – Dinarta Problem: GERD Pernah jalani hidup sehat bukan jaminan tubuh akan terus...</p>
+      </div>
+    </div>
+
+    <div class="rounded-lg overflow-hidden bg-white">
+      <img src="https://hotto.co.id/wp-content/uploads/Dulu-Muntah-Darah-karena-GERD-Kini-Karen-Berhasil-Pulih-scaled.png" alt="Karen" class="w-full h-auto object-cover" />
+      <div class="p-4">
+        <h3 class="text-lg font-semibold leading-snug mb-2">Dulu Muntah Darah karena GERD, Kini Karen Berhasil Pulih</h3>
+        <p class="text-sm text-gray-600">Testimoni – Karen Problem: GERD Kebiasaan kecil, seperti telat makan, pilih-pilih makanan,...</p>
+      </div>
+    </div>
+
+    <div class="rounded-lg overflow-hidden bg-white">
+      <img src="https://hotto.co.id/wp-content/uploads/Makan-Banyak-Tapi-Gak-Gemuk-Ternyata-Saya-Terkena-Diabetes-scaled.png" alt="Shelvy" class="w-full h-auto object-cover" />
+      <div class="p-4">
+        <h3 class="text-lg font-semibold leading-snug mb-2">Makan Banyak Tapi Gak Gemuk? Ternyata Saya Terkena Diabetes</h3>
+        <p class="text-sm text-gray-600">Testimoni – Shelvy Problem: Diabetes Banyak yang bilang, makan banyak nggak gemuk itu blessing,...</p>
+      </div>
+    </div>
+
+    <div class="rounded-lg overflow-hidden bg-white">
+      <img src="https://hotto.co.id/wp-content/uploads/Perjuangan-Ibu-Jo-Widya-Dari-Anak-GTM-Sampai-Mau-Makan-Lagi-scaled.png" alt="Jo Widya" class="w-full h-auto object-cover" />
+      <div class="p-4">
+        <h3 class="text-lg font-semibold leading-snug mb-2">Perjuangan Ibu Jo Widya: Dari Anak GTM Sampai Mau Makan Lagi</h3>
+        <p class="text-sm text-gray-600">Testimoni – Ibu Jo Widyana Problem: Hyper Sensory Sensitive. Menjadi seorang ibu adalah pengalaman...</p>
+      </div>
+    </div>
+
+    <div class="rounded-lg overflow-hidden bg-white">
+      <img src="https://hotto.co.id/wp-content/uploads/Cerita-Lidya-5-Hari-Tahan-Sakit-Perut-Karena-Tidak-Bisa-BAB-scaled.png" alt="Lidya" class="w-full h-auto object-cover" />
+      <div class="p-4">
+        <h3 class="text-lg font-semibold leading-snug mb-2">Cerita Lidya: 5 Hari Tahan Sakit Perut Karena Tidak Bisa BAB</h3>
+        <p class="text-sm text-gray-600">Testimoni – Lidya Problem: BAB Siapa sangka, pekerjaannya sebagai guru yang sibuk dari pagi...</p>
+      </div>
+    </div>
+
+    <div class="rounded-lg overflow-hidden bg-white">
+      <img src="https://hotto.co.id/wp-content/uploads/Cerita-Adjani-Dari-Eating-Disorder-Jadi-Pelari-Marathon.png" alt="Adjani" class="w-full h-auto object-cover" />
+      <div class="p-4">
+        <h3 class="text-lg font-semibold leading-snug mb-2">Cerita Adjani: Dari Eating Disorder Jadi Pelari Marathon</h3>
+        <p class="text-sm text-gray-600">Testimoni – Adjani Problem: Healthy Lifestyle Aku mulai lari itu karena pengen sembuh. Dan...</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="flex justify-center mt-10">
+    <button class="text-sm px-5 py-2 border border-gray-300 rounded-full hover:bg-gray-100 transition">See all blogs →</button>
+  </div>
+</div>
+
+    <div class="w- full min-h-[100vh]  p-[5vh] flex flex-col md:flex-row">
+      <div class=" flex justify-center [45%] h-[100%] bg-white] ">
+        <h1 class=" font-semibold text-[#5B539C] lg:text-[50px]" style="font-family:Georgia, 'Times New Roman', Times, serif;">Frequently Asked Questions</h1>
+      </div>
+      <div class=" font-bold  flex flex-col w-[100%] h-[100%]] text-start">
+            <div class=" cursor-pointer border-b border-gray-300 flex items-center justify-between text-center  w-full h-[10vh] p-[5px]"  style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+              <h1>Apakah Hotto termasuk obat-obatan?</h1>
+              <h1 class=" font-bold text-[15px]">+</h1>
+            </div>
+            
+            <div class=" text-start cursor-pointer border-b border-gray-300 flex items-center justify-between text-center  w-full h-[10vh] p-[5px]"  style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+              <h1>Apakah sudah BPOM dan Halal?</h1>
+              <h1 class=" font-bold text-[15px]">+</h1>
+            </div>
+
+            <div class=" text-start cursor-pointer border-b border-gray-300 flex items-center justify-between text-center  w-full h-[10vh] p-[5px]"  style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+              <h1>Bagaimana cara mengonsumsi HOTTO?</h1>
+              <h1 class=" font-bold text-[15px]">+</h1>
+            </div>
+
+            <div class="cursor-pointer border-b border-gray-300 flex items-center justify-between text-center w-full h-[10vh] p-[5px]"  style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+              <h1>Bagaimana cara penyajiannya?</h1>
+              <h1 class=" text-start font-bold text-[15px]">+</h1>
+            </div>
+
+             <div class=" cursor-pointer border-b border-gray-300 flex items-center justify-between text-center w-full h-[10vh] p-[5px]"  style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+              <h1>Bagaimana rasa Hotto?</h1>
+              <h1 class=" text-start font-bold text-[15px]">+</h1>
+            </div>
+
+             <div class=" text-start cursor-pointer border-b border-gray-300 flex items-center justify-between text-center w-full h-[10vh] p-[5px]"  style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+              <h1>Apakah menyebabkan ketergantungan?</h1>
+              <h1 class=" font-bold text-[15px]">+</h1>
+            </div>
+
+             <div class=" text-start cursor-pointer border-b border-gray-300 flex items-center justify-between text-center w-full h-[10vh] p-[5px]"  style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+              <h1>Apakah aman buat penderita maag/GERD?</h1>
+              <h1 class=" font-bold text-[15px]">+</h1>
+            </div>
+
+             <div class=" text-start cursor-pointer border-b border-gray-300 flex items-center justify-between text-center border-b border-gray-300 w-full h-[10vh] p-[5px]"  style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+              <h1>Apakah aman untuk penderita asam urat?</h1>
+              <h1 class=" font-bold text-[15px]">+</h1>
+            </div>
+
+            <div class=" text-start cursor-pointer border-b border-gray-300 flex items-center justify-between text-center border-b border-gray-300 w-full h-[10vh] p-[5px]"  style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+              <h1>Apakah Hotto mengandung susu?</h1>
+              <h1 class=" font-bold text-[15px]">+</h1>
+            </div>
+
+            <div class=" text-start  border-b border-gray-300 flex items-center justify-between text-center border-b border-gray-300 w-full h-[10vh] p-[5px]"  style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+              <h1>Siapa saja yang bisa mengonsumsi HOTTO?</h1>
+              <h1 class=" font-bold text-[15px]">+</h1>
+            </div>
+      </div>
+    </div>
+    
+
+    <div class="w-full min-h-[100vh]">
+      <div class=" w-full h-[100%] p-[5vh] bg-[#D6C8D5]">
+        <div class="p-[10px] flex flex-col items-center w-full min-h-[15vh] md:flex-row">
+          <div class=" flex flex-col text-center items-center w-[75%] h-full md:flex-row md:text-start">
+            <i class="fab fa-instagram text-[50px] text-[#5B539C]"></i>
+            <div class=" justify-between bg-red w-[75%] items-center text-[#5B539C]">
+              <h4 class=" font-semibold">#HottoinAja</h4>
+              <h1 class="text-[15px] md:text-[30px] lg:text-[45px] " style="font-family:Georgia, 'Times New Roman', Times, serif;">Stay in the loop on Instagram</h1>
+            </div>
+             </div>
+              <p class="italic border border-[#5B539C] rounded-full font-semibold text-[#5B539C]
+                    flex items-center justify-center text-[8px] w-[15vh] h-[5vh]
+                    md:flex-row text-[20px] md:w-[18vh] md:h-[50px]
+                    lg:text-base lg:w-[170px] lg:h-[75px] px-4
+                    xl:text-[15px] lg:w-[300px] lg:h-[100px] px-4">
+                    Follow secangkir.hotto
+                    <i class="fab fa-instagram text-[15px] text-[#5B539C] ml-3vh"></i>
+                  </p>
+                  
+
+        </div>
+
+        <div class="relative w-full h-[45vh] overflow-hidden">
+  <div id="slider" class="flex h-full space-x-4 overflow-x-auto scroll-smooth scrollbar-hide">
+    <div class="bg-white h-full w-[35vh] flex-shrink-0 rounded-md shadow-md">
+      <img src="https://hotto.co.id/wp-content/uploads/2024/09/rahasia-sehat-sophia-latjuba.jpg.webp" alt="" class="h-full w-full object-cover rounded-md" />
+    </div>
+    <div class="bg-white h-full w-[35vh] flex-shrink-0 rounded-md shadow-md">
+      <img src="https://hotto.co.id/wp-content/uploads/2024/09/sebelum-olahraga.jpg.webp" alt="" class="h-full w-full object-cover rounded-md" />
+    </div>
+    <div class="bg-white h-full w-[35vh] flex-shrink-0 rounded-md shadow-md">
+      <img src="https://hotto.co.id/wp-content/uploads/2024/09/daging-bosen-1.jpg.webp" alt="" class="h-full w-full object-cover rounded-md" />
+    </div>
+    <div class="bg-white h-full w-[35vh] flex-shrink-0 rounded-md shadow-md">
+      <img src="https://hotto.co.id/wp-content/uploads/2024/09/kenapa-hotto-mame-ssih-cellos-240x300.jpg.webp" alt="" class="h-full w-full object-cover rounded-md" />
+    </div>
+    <div class="bg-white h-full w-[35vh] flex-shrink-0 rounded-md shadow-md">
+      <img src="https://hotto.co.id/wp-content/uploads/2024/09/Manfaat-edamame.jpg.webp" alt="" class="h-full w-full object-cover rounded-md" />
+    </div>
+  </div>
+
+  <button  class="absolute left-2 top-1/2 -translate-y-1/2 bg-white p-2 rounded-full text-xl shadow z-10 hover:bg-gray-200">
+    ❮
+  </button>
+  <button class="absolute right-2 top-1/2 -translate-y-1/2 bg-white p-2 rounded-full text-xl shadow z-10 hover:bg-gray-200">
+    ❯
+  </button>
+</div>
+</div>
+
+    <div class="w-full min-h-[50vh] relative pt-[1vh] bg-[#EAE2EC]">
+      <div class=" w-full h-[50vh] p-[25px]  flex item-center justify-center">
+        <div class="w-[75%] min-h-[50vh] flex items-center justify-center bg-no-repeat bg-center bg-contain bg-[url('./image/Logo-3-300x83.png.webp')]"></div>
+     </div>
+    <footer class="bg-[#EAE2EC] text-[#1A0E3B] py-10 px-6">
+  <div class="max-w-7xl mx-auto flex flex-col md:flex-row md:justify-between md:items-start gap-10">
+    
+    <!-- Navigasi -->
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-6 w-full md:w-3/4">
+      <!-- Explore -->
+      <div>
+        <h3 class="font-bold mb-2">EXPLORE</h3>
+        <ul class="space-y-1 text-sm text-gray-800">
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Community</a></li>
+          <li><a href="#">Reviews</a></li>
+        </ul>
+      </div>
+
+      <!-- Shop -->
+      <div>
+        <h3 class="font-bold mb-2">SHOP</h3>
+        <ul class="space-y-1 text-sm text-gray-800">
+          <li><a href="#">Official distributors</a></li>
+          <li><a href="#">Shopee</a></li>
+        </ul>
+      </div>
+
+      <!-- About -->
+      <div>
+        <h3 class="font-bold mb-2">ABOUT</h3>
+        <ul class="space-y-1 text-sm text-gray-800">
+          <li><a href="#">Our story</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </div>
+
+      <!-- Follow -->
+      <div>
+        <h3 class="font-bold mb-2">FOLLOW</h3>
+        <ul class="space-y-1 text-sm text-gray-800">
+  <li>
+    <a href="#" class="flex items-center gap-2">
+      <i class="fab fa-instagram text-pink-600"></i> Instagram
+    </a>
+  </li>
+  <li>
+    <a href="#" class="flex items-center gap-2">
+      <i class="fab fa-tiktok text-black"></i> TikTok
+    </a>
+  </li>
+  <li>
+    <a href="#" class="flex items-center gap-2">
+      <i class="fab fa-youtube text-red-600"></i> YouTube
+    </a>
+  </li>
+  <li>
+    <a href="#" class="flex items-center gap-2">
+      <i class="fab fa-x-twitter text-gray-900"></i> X.com
+    </a>
+  </li>
+</ul>
+
+      </div>
+    </div>
+
+    <!-- Available at -->
+ <div class="w-full md:w-1/4 text-center md:text-left">
+  <h3 class="font-bold mb-4">ALSO AVAILABLE AT</h3>
+  <div class="grid grid-cols-2 gap-4 items-center justify-items-center">
+    <img src="./image/Logo_Halodoc-removebg-preview.png" alt="Halodoc" class="h-12 max-w-[120px] object-contain" />
+    <img src="./image/Logo-astro-indonesia-removebg-preview.png" alt="Astro" class="h-12 max-w-[120px] object-contain" />
+    <img src="./image/Growell-removebg-preview.png" alt="Growell" class="h-12 max-w-[120px] object-contain scale-[3]" />
+    <img src="./image/images__4_-removebg-preview.png" alt="Foodhall" class="h-12 max-w-[120px] object-contain " />
+  </div>
+</div>
+</div>  
+
+  <!-- Garis -->
+  <div class="text-center flex flex-row-reverse justify-between border-t border-[#1A0E3B] mt-10 pt-6  ">
+    <!-- Sertifikasi -->
+    <div class="flex justify-center gap-6 mb-4 p-[25px]">
+      <img src="https://hotto.co.id/wp-content/uploads/certif-hotto.png.webp" alt="Halal" class="h-8 object-contain " />
+    </div>
+    <p class="text-sm text-gray-600">© 2024 Hotto. All rights reserved.</p>
+  </div>
+</footer>
+
+      </div>
+
+  </div>
+
+
+    </div>
+    
+
+  
+<script src="./js/index.js"></script>
+</body>
+</html>
